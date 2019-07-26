@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.lilidds.ink/"/>
-  <updated>2019-07-26T11:07:49.000Z</updated>
+  <updated>2019-07-26T13:46:51.266Z</updated>
   <id>https://www.lilidds.ink/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo-手机端免Root优雅地发文章2</title>
+    <link href="https://www.lilidds.ink/2019/07/26/hd/"/>
+    <id>https://www.lilidds.ink/2019/07/26/hd/</id>
+    <published>2019-07-26T13:06:00.000Z</published>
+    <updated>2019-07-26T13:46:51.266Z</updated>
+    
+    <content type="html"><![CDATA[<p>大家好！欢迎来围观我的博客😊</p><p>今天我再来说说Hexo在手机上的免Root安装吧！<br>之前，我发过一篇在手机端免Root安装Hexo以实现手机上优雅地写文章和Git推送，不过很多读者都会出现这样或那样的问题，不能否认，之前的那个方法太不科学了，弊端也是数不胜数，比如不能安装插件(会报错)、还有不能“hexo d”…<br>好了，看我是如何秀的😏</p><p>第一步：下载Termux</p><p>第二步：参照这篇文章安装Hexo<a href="https://404gle.cn/essay/2018-11-11-hello-world" target="_blank" rel="noopener">浏览</a></p><p>第三步：安装Hexo-admin插件</p><p>成功地完成了这三步，那么恭喜你,你已经搭建成功了</p><p>哈哈，我说的挺草率的，别慌我说详细点🌚</p><p>骚年，什么，你想要详细点，这是不可能的，这辈子都是不可能的😏</p><p>温馨提示：还可以用Vim来编辑文章</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;大家好！欢迎来围观我的博客😊&lt;/p&gt;
+&lt;p&gt;今天我再来说说Hexo在手机上的免Root安装吧！&lt;br&gt;之前，我发过一篇在手机端免Root安装Hexo以实现手机上优雅地写文章和Git推送，不过很多读者都会出现这样或那样的问题，不能否认，之前的那个方法太不科学了，弊端也是数不
+      
+    
+    </summary>
+    
+      <category term="Hexo" scheme="https://www.lilidds.ink/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://www.lilidds.ink/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Confide my heart</title>
@@ -172,11 +198,11 @@
   </entry>
   
   <entry>
-    <title>Hexo-手机端无ROOT优雅地发文章</title>
+    <title>Hexo-手机端免Root优雅地发文章</title>
     <link href="https://www.lilidds.ink/2019/02/14/e/"/>
     <id>https://www.lilidds.ink/2019/02/14/e/</id>
     <published>2019-02-14T14:11:37.000Z</published>
-    <updated>2019-07-26T11:07:49.000Z</updated>
+    <updated>2019-07-26T13:22:47.456Z</updated>
     
     <content type="html"><![CDATA[<h2 id="特殊的Hexo手机端搭建"><a href="#特殊的Hexo手机端搭建" class="headerlink" title="特殊的Hexo手机端搭建"></a>特殊的Hexo手机端搭建</h2><p>在手机没ROOT的情况下，是不能正常搭建Hexo的，不然会导致Hexo数据在/根目录/data/data…,这样你没有权限编辑文章！<br>开始：下载安装Termux终端APP(百度)，Termux首次打开需要你连接“V什么N”（这个省略了，应该懂吧！）进行初始化。<br>接着，在Termux终端里输入：<br>安装Node.js<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pkg install nodejs</span><br></pre></td></tr></table></figure></p><p>安装Hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure></p><p>注意了：不用Hexo init初始化Hexo，我说过这是特殊的Hexo安装法。也不用在终端安装Git,因为无ROOT不能推送代码到仓库（没有权限，我推送时报错）。<br>然后在你手机/storage/emulated/0/目录下（手机存储空间-不是SD卡）新建一个文件夹：hexo，把这个文件（<a href="https://pan.baidu.com/s/1b_Ic7JCZvQI_5xhOMm1N7A" target="_blank" rel="noopener">下载</a>）解压到你新建的’hexo’文件夹下（因为某种原因不能用命令初始化需手动初始化hexo）,然后打开终端输入cd /storage/emulated/0/hexo切换到Hexo目录下，接着输入:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure></p><p>运行测试，如果博客在本地可以成功打开那就恭喜你完成了Hexo在本地的搭建</p><h2 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h2><p>在终端里输入cd /storage/emulated/0/hexo切换到’hexo’目录下，输入写文章的命令（和电脑上写文章一样）</p><h2 id="推送静态网站到Github仓库"><a href="#推送静态网站到Github仓库" class="headerlink" title="推送静态网站到Github仓库"></a>推送静态网站到Github仓库</h2><p>下载’口袋Git’APP,用这个APP把你的/hexo/public/目录下的静态博客文件推送到GitHub就可以了。<br>口袋Git咋用你们可以去问大佬或自己摸索，我就不写了（麻烦）</p><h2 id="温馨提示：文章有些乱，小白看起来可能比较吃力，下面是总结"><a href="#温馨提示：文章有些乱，小白看起来可能比较吃力，下面是总结" class="headerlink" title="温馨提示：文章有些乱，小白看起来可能比较吃力，下面是总结"></a>温馨提示：文章有些乱，小白看起来可能比较吃力，下面是总结</h2><p>总结一下原理：用Termux在手机/storage/emulated/0/目录下搭建Hexo博客-在这个目录下搭建是为了可以编辑文章，但因为手机没有获取ROOT权限导致Git无法推送静态博客文件到GitHub,所以就要用到’口袋 Git’这款神奇的APP来把已经在/hexo/public/目录下生成好的静态博客文件推送到GitHub</p><blockquote><p>这或许是全网首个手机端无ROOT版的Hexo教程。写文章好幸苦，出教程更幸苦，请我喝杯咖啡吧？点击下面的打赏按钮(๑&gt;ᴗ&lt;๑)</p></blockquote>]]></content>
     
