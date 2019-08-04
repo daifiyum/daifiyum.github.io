@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.lilidds.ink/About/index.html</loc>
+    
+    <lastmod>2019-08-04T08:46:27.902Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.lilidds.ink/2019/02/06/musica/</loc>
     
     <lastmod>2019-08-03T08:36:12.455Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://www.lilidds.ink/2019/04/29/moviea/</loc>
     
     <lastmod>2019-08-03T08:15:41.515Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.lilidds.ink/About/index.html</loc>
-    
-    <lastmod>2019-08-01T09:51:51.171Z</lastmod>
     
   </url>
   
@@ -107,14 +107,14 @@
   </url>
   
   <url>
-    <loc>https://www.lilidds.ink/categories/index.html</loc>
+    <loc>https://www.lilidds.ink/fangke/index.html</loc>
     
     <lastmod>2019-07-26T11:07:49.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.lilidds.ink/fangke/index.html</loc>
+    <loc>https://www.lilidds.ink/categories/index.html</loc>
     
     <lastmod>2019-07-26T11:07:49.000Z</lastmod>
     
